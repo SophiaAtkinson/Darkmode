@@ -123,3 +123,38 @@ p {
 	font-family: monospace, monospace;
 	font-size: 1em
 }
+a {
+	-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	border-bottom: solid 1px;
+	color: #fff;
+	text-decoration: none;
+}
+
+	a:hover {
+		border-bottom-color: transparent;
+		color: #fff !important;
+		text-decoration: none;
+	}
+	strong, b {
+		color: #fff;
+		font-weight: 400;
+	}
+
+	em, i {
+		color: #fff;
+		font-style: italic;
+	}
+	.align-left {
+		text-align: left;
+	}
+
+	.align-center {
+		text-align: center;
+	}
+
+	.align-right {
+		text-align: right;
+	}
